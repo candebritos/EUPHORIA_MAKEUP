@@ -1,7 +1,7 @@
 {
-  "name": "proyecto---sass",
+  "name": "EUPHORIA MAKEUP",
   "version": "1.0.0",
-  "description": "proyecto de coder",
+  "description": "Emprendimiento de maquillajes, productos de skincare y mucho más",
   "main": "wow.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
-  "author": "",
+  "author": "Britos Candela",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
