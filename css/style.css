@@ -94,6 +94,16 @@ h3 {
   background-size: 100%;
   list-style: none; }
 
+body {
+  background-image: url(../img/fondomarmol.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
 .botonera {
   background-color: rgba(238, 188, 255, 0.5);
   padding: 5px 30px;
@@ -116,6 +126,24 @@ h3 {
         .botonera ul li a:hover {
           color: rgba(238, 188, 255, 0.5); }
 
+footer {
+  padding: 5px 30px; }
+  footer h3 {
+    font-family: "Comfortaa", cursive;
+    font-size: 2em;
+    color: black; }
+  footer a img {
+    width: 10%; }
+
+header h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 2em;
+  color: black;
+  text-align: center; }
+
+header img {
+  width: 100%; }
+
 #dashboard h1, #dashboard h2, #dashboard h3, #dashboard h4 {
   font-family: "Comfortaa", cursive;
   font-size: 2em;
@@ -137,6 +165,9 @@ h3 {
   margin-top: 10px;
   color: black; }
 
+p#preline {
+  white-space: pre-line; }
+
 .box {
   display: flex;
   justify-content: center;
@@ -153,34 +184,6 @@ h3 {
   line-height: 1.4em;
   color: violet;
   padding: 2px; }
-
-footer {
-  padding: 5px 30px; }
-  footer h3 {
-    font-family: "Comfortaa", cursive;
-    font-size: 2em;
-    color: black; }
-  footer a img {
-    width: 10%; }
-
-header h1 {
-  font-family: "Comfortaa", cursive;
-  font-size: 2em;
-  color: black;
-  text-align: center; }
-
-header img {
-  width: 100%; }
-
-body {
-  background-image: url(../img/fondomarmol.jpg);
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow-x: hidden; }
 
 #productos h1,
 #productos h2 {
@@ -318,6 +321,3 @@ body {
 
 .iconos {
   padding: 20px; }
-
-p#preline {
-  white-space: pre-line; }
