@@ -31,15 +31,19 @@
 
 		#productos .galeria figure figcaption{
 			font-size: 1.5rem;
+			font-family: $fontCure;
 			color: black ;
 			padding: 6px 0;
 			background-color: white;
 		}
 
 		#productos .galeria p.price{
+			font-size: 1.5rem;
+			font-family: $fontCure;
 			color: #676565;
 			padding-bottom: 0.3px;
 			background-color: white;
+
 		}
 
 /* productos destacados*/
@@ -127,54 +131,6 @@
 
 /* media queries*/
 
-@media (min-width: 768px){
-	.contenedor{
-		grid-template-columns: 20vw 80vw;
-		grid-template-rows: repeat(4, auto);
-		grid-template-areas: "nav nav" "header header" 
-		"filtros productos" "footer footer";
-	}
-
-	#productos .galeria{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	#productos .galeria figure{
-		width: 90%;
-	}
-}
-
-
-@media (min-width: 1024px){
-	.contenedor{
-		grid-template-columns: 20vw 80vw;
-		grid-template-rows: repeat(4, auto);
-		grid-template-areas: "nav nav nav" 
-		"header header header" 
-		"filtros productos productos" 
-		"footer footer footer";
-	}
-
-	#productos .galeria figure{
-		width: 100%;
-	}
-
-	.botonera{
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-		.botonera img{
-			width: 220px;
-			margin-bottom: 0;
-
-		}
-
-			
-}
 
 @media (min-width: 1200px){
 	#productos .galeria{

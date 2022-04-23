@@ -29,6 +29,11 @@ $lang:es;
 
 // extends
 
+.colorNav{
+	color: $secondaryColor;
+}
+
+
 .btn-more{
 	width: 100px;
 	height: 30px;
@@ -154,6 +159,7 @@ $paleta: (
 		height: 50px;
 		background-size:100%;
 		list-style: none;
+		
 	}
 }
 
@@ -190,7 +196,7 @@ body{
 			a{
 				color: grey;
 				font-size: $textMd;
-				font-family: $fontMain;
+				font-family: $fontCure;
 				text-decoration: none;
 
 
@@ -216,6 +222,7 @@ footer{
 		font-family: $fontMain;
 		font-size: $textMd;
 		color: $keyColor;
+		margin: 30px 10px;
 		
 	}
 
@@ -230,7 +237,7 @@ footer{
 header{
 	
 	h1{
-		font-family: $fontMain;
+		font-family: $fontCure;
 		font-size: $textMd;
 		color: $keyColor;
 		text-align: center;

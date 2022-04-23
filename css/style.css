@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&display=swap");
+.colorNav {
+  color: rgba(238, 188, 255, 0.5); }
+
 .btn-more, .btn-rounded {
   width: 100px;
   height: 30px;
@@ -121,7 +124,7 @@ body {
       .botonera ul li a {
         color: grey;
         font-size: 2em;
-        font-family: "Comfortaa", cursive;
+        font-family: "Montserrat", sans-serif;
         text-decoration: none; }
         .botonera ul li a:hover {
           color: rgba(238, 188, 255, 0.5); }
@@ -131,12 +134,13 @@ footer {
   footer h3 {
     font-family: "Comfortaa", cursive;
     font-size: 2em;
-    color: black; }
+    color: black;
+    margin: 30px 10px; }
   footer a img {
     width: 10%; }
 
 header h1 {
-  font-family: "Comfortaa", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: black;
   text-align: center; }
@@ -145,7 +149,7 @@ header img {
   width: 100%; }
 
 #dashboard h1, #dashboard h2, #dashboard h3, #dashboard h4 {
-  font-family: "Comfortaa", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: black;
   padding: 0 20px; }
@@ -153,6 +157,7 @@ header img {
 #dashboard p {
   color: black;
   font-size: 1em;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.4em;
   padding: 20px; }
 
@@ -213,11 +218,14 @@ h3 {
 
 #productos .galeria figure figcaption {
   font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
   color: black;
   padding: 6px 0;
   background-color: white; }
 
 #productos .galeria p.price {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
   color: #676565;
   padding-bottom: 0.3px;
   background-color: white; }
@@ -284,33 +292,6 @@ h3 {
   grid-template-areas: "nav"  "header"  "filtros"  "productos" "footer"; }
 
 /* media queries*/
-@media (min-width: 768px) {
-  .contenedor {
-    grid-template-columns: 20vw 80vw;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "nav nav" "header header"  "filtros productos" "footer footer"; }
-  #productos .galeria {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  #productos .galeria figure {
-    width: 90%; } }
-
-@media (min-width: 1024px) {
-  .contenedor {
-    grid-template-columns: 20vw 80vw;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "nav nav nav"  "header header header"  "filtros productos productos"  "footer footer footer"; }
-  #productos .galeria figure {
-    width: 100%; }
-  .botonera {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }
-  .botonera img {
-    width: 220px;
-    margin-bottom: 0; } }
-
 @media (min-width: 1200px) {
   #productos .galeria {
     display: flex;
