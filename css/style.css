@@ -97,6 +97,11 @@ h3 {
   background-size: 100%;
   list-style: none; }
 
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
 body {
   background-image: url(../img/fondomarmol.jpg);
   background-size: cover;
@@ -105,48 +110,40 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden; }
-
-.botonera {
-  background-color: rgba(238, 188, 255, 0.5);
-  padding: 5px 30px;
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .botonera img {
-    width: 50%; }
-  .botonera ul {
-    display: flex; }
-    .botonera ul li {
-      list-style: none; }
-      .botonera ul li a {
-        color: grey;
-        font-size: 2em;
-        font-family: "Montserrat", sans-serif;
-        text-decoration: none; }
-        .botonera ul li a:hover {
-          color: rgba(238, 188, 255, 0.5); }
+  padding: 0;
+  margin: 0; }
 
 footer {
-  padding: 5px 30px; }
+  padding: 5px 30px;
+  width: 100%;
+  align-items: center; }
   footer h3 {
-    font-family: "Comfortaa", cursive;
+    font-family: "Montserrat", sans-serif;
     font-size: 2em;
     color: black;
-    margin: 30px 10px; }
+    margin: 30px 10px;
+    text-align: center; }
   footer a img {
     width: 10%; }
 
-header h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2em;
-  color: black;
-  text-align: center; }
-
-header img {
+header {
   width: 100%; }
+  header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    color: black;
+    text-align: center; }
+  header img {
+    width: 100%; }
+
+.icn {
+  margin: 30px;
+  align-items: center;
+  justify-content: 2px; }
+
+@media (min-width: 280px) and (max-width: 400px) {
+  img[src="../img/logo2.jpeg"] {
+    width: 100px; } }
 
 #dashboard h1, #dashboard h2, #dashboard h3, #dashboard h4 {
   font-family: "Montserrat", sans-serif;
@@ -195,13 +192,10 @@ h3 {
   text-transform: uppercase;
   font-size: 2rem;
   text-align: center;
-  padding: 20px 0;
   background-color: rgba(255, 255, 255, 0.7);
-  font-family: Comfortaa, sans-serif;
-  margin: 20px 0; }
+  font-family: Comfortaa, sans-serif; }
 
 #productos .galeria {
-  margin: 20px;
   /****display flex****/
   display: flex;
   justify-content: space-between; }
@@ -220,7 +214,6 @@ h3 {
   font-size: 1.5rem;
   font-family: "Montserrat", sans-serif;
   color: black;
-  padding: 6px 0;
   background-color: white; }
 
 #productos .galeria p.price {
@@ -240,21 +233,17 @@ h3 {
 #productos .destacados article p {
   font-size: 10rem;
   line-height: 2.4rem;
-  padding: 50px;
-  margin: 20px auto;
   color: white; }
 
 #productos .destacados article h3 {
   color: white;
   font-size: 4rem;
-  padding-left: 50px;
   font-family: Comfortaa, sans-serif; }
 
 /* tienda online*/
 .secondNav {
   background-color: white;
   color: #676565;
-  padding: 10px 30px;
   font-size: 1.3rem;
   line-height: 1.6em;
   display: flex;

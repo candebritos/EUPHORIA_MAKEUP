@@ -3,16 +3,16 @@
 	text-transform: uppercase;
 	font-size: 2rem;
 	text-align: center;
-	padding: 20px 0;
+	
 	background-color: rgba(255, 255, 255, .7);
 	font-family: Comfortaa, sans-serif;
-	margin: 20px 0;
+	
 }
 
 
 
 #productos .galeria{
-	margin: 20px;
+	
 	/****display flex****/
 	display: flex;
 	justify-content: space-between;
@@ -33,7 +33,7 @@
 			font-size: 1.5rem;
 			font-family: $fontCure;
 			color: black ;
-			padding: 6px 0;
+			
 			background-color: white;
 		}
 
@@ -57,15 +57,15 @@
 	#productos .destacados article p{
 		font-size: 10rem;
 		line-height: 2.4rem;
-		padding: 50px;
-		margin: 20px auto;
+		
+		
 		color: white;
 	}
 
 	#productos .destacados article h3{
 		color: white;
 		font-size: 4rem;
-		padding-left: 50px;
+		
 		font-family: Comfortaa, sans-serif;
 	}
 
@@ -73,7 +73,7 @@
 .secondNav{
 	background-color: white;
 	color:#676565 ;
-	padding: 10px 30px;
+	
 	font-size: 1.3rem;
 	line-height: 1.6em;
 	display: flex;

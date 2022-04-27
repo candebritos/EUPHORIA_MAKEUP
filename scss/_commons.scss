@@ -15,9 +15,12 @@ $keyColor: black;
 
 
 $w-100: 100%;
+$w-75: 75%;
 $w-50: 50%;
+$w-30: 30%;
 $w-25: 25%;
 $w-10: 10%;
+
 
 
 
@@ -159,10 +162,19 @@ $paleta: (
 		height: 50px;
 		background-size:100%;
 		list-style: none;
+
+		
 		
 	}
 }
 
+
+*{
+	margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
 
 body{
 	background-image: url(../img/fondomarmol.jpg);
@@ -171,70 +183,42 @@ body{
         -webkit-background-size: cover;
         -o-background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
-	overflow-x: hidden;
-}
-
-
-.botonera{
-	background-color: $mainColor;
-	padding: 5px 30px;
-	position: sticky;
-	top: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	img{
-		width: $w-50;
-	}
-	ul{
-		display: flex;
-
-		li{
-			list-style: none;
-			a{
-				color: grey;
-				font-size: $textMd;
-				font-family: $fontCure;
-				text-decoration: none;
-
-
-				&:hover{
-					color:$secondaryColor;
-				}
-			}
-
-		}
-	}
-
+    background-attachment: fixed;  
+    padding: 0;
+    margin: 0;
 
 }
-
-
 
 footer{
 	
-	padding: 5px 30px;
+	justify-content: space-evenly;
+	align-content: center;
+	display: flex;
+	
 
 
 	h3{
-		font-family: $fontMain;
+		font-family: $fontCure;
 		font-size: $textMd;
 		color: $keyColor;
 		margin: 30px 10px;
+		
 		
 	}
 
 	a{
 		img{
 			width: $w-10;
+			
+			
 		}
 	}
 }
 
 
 header{
+
+	width: 100%;
 	
 	h1{
 		font-family: $fontCure;
@@ -249,4 +233,7 @@ header{
 
 }
 
+
+
+	
 
