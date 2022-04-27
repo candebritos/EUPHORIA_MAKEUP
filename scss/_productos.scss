@@ -13,7 +13,7 @@
 
 #productos .galeria{
 	
-	/****display flex****/
+	
 	display: flex;
 	justify-content: space-between;
 }
@@ -46,10 +46,8 @@
 
 		}
 
-/* productos destacados*/
 #productos .destacados article{
 	background-color: #BD5EF3 ;
-	/****display flex****/
 	display: flex;
 	align-items: center;
 }
@@ -69,7 +67,6 @@
 		font-family: Comfortaa, sans-serif;
 	}
 
-/* tienda online*/
 .secondNav{
 	background-color: white;
 	color:#676565 ;
@@ -129,7 +126,7 @@
 
 }
 
-/* media queries*/
+
 
 
 @media (min-width: 1200px){

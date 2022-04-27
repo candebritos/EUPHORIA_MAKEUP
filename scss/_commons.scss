@@ -11,8 +11,6 @@ $colorFondo: #d1b4a6;
 $keyColor: black;
 
 
-//sizing
-
 
 $w-100: 100%;
 $w-75: 75%;
@@ -30,7 +28,7 @@ $height:30vh;
 $lang:es;
 
 
-// extends
+
 
 .colorNav{
 	color: $secondaryColor;
@@ -57,7 +55,7 @@ $lang:es;
 }
 
 
-//mixins
+
 @mixin texto($font-size, $line-height, $color){
 	font-size: $font-size;
 	line-height: $line-height;
@@ -88,7 +86,7 @@ h3{
 }
 
 
-// map
+
 $paleta: (
     'uno': #af40f6,
     'dos': #df1ce6,
@@ -135,7 +133,6 @@ $paleta: (
 
 
 
-// condicionales 
 .icon-lang{
 	width: 50px;
 	height: 50px;
@@ -154,7 +151,6 @@ $paleta: (
 	}
 }
 
-// bucle evolucionado
 @each $icono in facebook, instagram, tiktok{
 	.#{$icono}-icon{
 		background-image:url(../img/#{$icono}.svg);
